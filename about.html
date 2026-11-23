@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About and Help | HandaPH</title>
+  <meta name="description" content="About HandaPH, frequently asked questions and where to get help in an emergency.">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&amp;display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html" aria-label="HandaPH home"><img src="images/logo.svg" alt="" width="46" height="52"><span>Handa<b>PH</b></span></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Show or hide the menu">
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span></label>
+      <nav class="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hazards.html">Choose Hazard</a></li>
+        <li><a href="checklist.html">My Checklist</a></li>
+        <li><a href="kit-guide.html">Kit Guide</a></li>
+        <li><a href="family-plan.html">Family Plan</a></li>
+        <li><a href="about.html" aria-current="page">About and Help</a></li>
+      </ul>
+      </nav>
+      <form class="search" role="search" action="hazards.html">
+        <img src="images/search.svg" alt="">
+        <input type="search" name="q" placeholder="Search..." aria-label="Search the site">
+      </form>
+    </div>
+  </header>
+  <main id="main">
+    <section class="about-hero" aria-labelledby="ab-h">
+      <div class="hero-bg" aria-hidden="true"><span class="l"></span><span class="r"></span></div>
+      <h1 id="ab-h">Building Resilient Communities, Together</h1>
+    </section>
+    <div class="wrap">
+      <div class="mission"><h2 class="section-title">Our Mission: To empower every Filipino with the knowledge and tools to be prepared for any disaster.</h2></div>
+      <h2 class="section-title" id="faq" style="margin-top:22px">Frequently Asked Questions</h2>
+      <div class="faq-grid">
+        <details class="faq"><summary>How to use this portal?</summary><div class="answer"><p>Pick a hazard on <a href="hazards.html">Choose Hazard</a> to read what to do before, during and after it. Then tick off supplies on <a href="checklist.html">My Checklist</a>, see what to pack in the <a href="kit-guide.html">Kit Guide</a>, and write your <a href="family-plan.html">Family Plan</a>.</p></div></details>
+        <details class="faq"><summary>What to do in an emergency?</summary><div class="answer"><p>Stay calm and get to a safe place first. Follow instructions from your LGU, then call <strong>911</strong> if someone is in danger. Keep a radio on for official updates.</p></div></details>
+        <details class="faq"><summary>Contacting authorities</summary><div class="answer"><p>See the <a href="#hotlines">emergency hotlines</a> on this page. Your barangay hall and local DRRM office can tell you about evacuation centers near you.</p></div></details>
+        <details class="faq"><summary>What is a resilient community?</summary><div class="answer"><p>A community where people know the risks, have a plan, help each other and can recover quickly after a disaster.</p></div></details>
+        <details class="faq"><summary>Is HandaPH free to use?</summary><div class="answer"><p>Yes. HandaPH is a student project that shares free preparedness information for Filipino families.</p></div></details>
+        <details class="faq"><summary>Where does the information come from?</summary><div class="answer"><p>Guides are based on advice from PAGASA, PHIVOLCS, NDRRMC and UNICEF Philippines. See the <a href="references.html">References</a> page. Always follow official local advisories first.</p></div></details>
+      </div>
+      <div class="help-row">
+        <h2 class="section-title">Need More Help?</h2>
+        <a class="btn" href="mailto:handaph@example.com">Email Support</a>
+        <a class="btn" href="#hotlines">Emergency Hotlines</a>
+        <a class="btn" href="https://www.pagasa.dost.gov.ph/" target="_blank" rel="noopener">Official Weather Updates</a>
+      </div>
+      <section class="hotlines" id="hotlines" aria-labelledby="hot-h">
+        <h2 id="hot-h">Emergency Hotlines</h2>
+        <dl>
+          <dt>911</dt><dd>National emergency hotline (police, fire, medical).</dd>
+          <dt>143</dt><dd>Philippine Red Cross.</dd>
+          <dt>PAGASA</dt><dd>Weather and typhoon bulletins: <a href="https://www.pagasa.dost.gov.ph/" target="_blank" rel="noopener">pagasa.dost.gov.ph</a></dd>
+          <dt>PHIVOLCS</dt><dd>Earthquake, volcano and tsunami advisories: <a href="https://www.phivolcs.dost.gov.ph/" target="_blank" rel="noopener">phivolcs.dost.gov.ph</a></dd>
+          <dt>NDRRMC</dt><dd>National disaster updates: <a href="https://ndrrmc.gov.ph/" target="_blank" rel="noopener">ndrrmc.gov.ph</a></dd>
+        </dl>
+        <p class="note">Also write down your barangay hall and local fire station numbers.</p>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <a class="brand-small" href="index.html" aria-label="HandaPH home"><img src="images/logo.svg" alt="" width="36" height="40"><span>Handa<b>PH</b></span></a>
+      <ul class="foot-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="about.html#faq">Help</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+      <ul class="social">
+        <li><a href="#" aria-label="HandaPH on Facebook"><img src="images/social-facebook.svg" alt=""></a></li>
+        <li><a href="#" aria-label="HandaPH on YouTube"><img src="images/social-youtube.svg" alt=""></a></li>
+        <li><a href="#" aria-label="HandaPH on TikTok"><img src="images/social-tiktok.svg" alt=""></a></li>
+      </ul>
+      <p class="tagline">Prepared Today. Safer Tomorrow.</p>
+    </div>
+  </footer>
+</body>
+</html>

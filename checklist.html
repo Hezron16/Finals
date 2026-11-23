@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Checklist | HandaPH</title>
+  <meta name="description" content="Tick off each item as you prepare your grab-and-go bag, home kit, documents and special needs supplies.">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&amp;display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="checklist-page">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html" aria-label="HandaPH home"><img src="images/logo.svg" alt="" width="46" height="52"><span>Handa<b>PH</b></span></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Show or hide the menu">
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span></label>
+      <nav class="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hazards.html">Choose Hazard</a></li>
+        <li><a href="checklist.html" aria-current="page">My Checklist</a></li>
+        <li><a href="kit-guide.html">Kit Guide</a></li>
+        <li><a href="family-plan.html">Family Plan</a></li>
+        <li><a href="about.html">About and Help</a></li>
+      </ul>
+      </nav>
+      <form class="search" role="search" action="hazards.html">
+        <img src="images/search.svg" alt="">
+        <input type="search" name="q" placeholder="Search..." aria-label="Search the site">
+      </form>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap content">
+      <h1 class="section-title">My Disaster Preparedness Checklist</h1>
+      <div class="cl-layout">
+        <div>
+      <section class="cl">
+        <input class="acc" type="checkbox" id="acc-1" checked>
+        <h2><label class="cl-head" for="acc-1"><span class="cl-title">Grab-and-Go Bag</span><span class="bar-seg" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="chev" aria-hidden="true"></span></label></h2>
+        <div class="cl-body">
+          <ul class="items">
+            <li><input class="tick" type="checkbox" id="item-1"><label for="item-1">Water</label></li>
+            <li><input class="tick" type="checkbox" id="item-2"><label for="item-2">Non-perishable food</label></li>
+            <li><input class="tick" type="checkbox" id="item-3"><label for="item-3">First-aid kit</label></li>
+            <li><input class="tick" type="checkbox" id="item-4"><label for="item-4">Flashlight</label></li>
+            <li><input class="tick" type="checkbox" id="item-5"><label for="item-5">Whistle</label></li>
+            <li><input class="tick" type="checkbox" id="item-6"><label for="item-6">Power bank and charger</label></li>
+          </ul>
+        </div>
+      </section>
+      <section class="cl">
+        <input class="acc" type="checkbox" id="acc-2">
+        <h2><label class="cl-head" for="acc-2"><span class="cl-title">Home Kit</span><span class="bar-seg" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span class="chev" aria-hidden="true"></span></label></h2>
+        <div class="cl-body">
+          <ul class="items">
+            <li><input class="tick" type="checkbox" id="item-7"><label for="item-7">Extra water and food for 3 days</label></li>
+            <li><input class="tick" type="checkbox" id="item-8"><label for="item-8">Battery or hand-crank radio</label></li>
+            <li><input class="tick" type="checkbox" id="item-9"><label for="item-9">Spare batteries</label></li>
+            <li><input class="tick" type="checkbox" id="item-10"><label for="item-10">Fire extinguisher</label></li>
+            <li><input class="tick" type="checkbox" id="item-11"><label for="item-11">Blankets and raincoats</label></li>
+          </ul>
+        </div>
+      </section>
+      <section class="cl">
+        <input class="acc" type="checkbox" id="acc-3">
+        <h2><label class="cl-head" for="acc-3"><span class="cl-title">Important Documents</span><span class="bar-seg" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span class="chev" aria-hidden="true"></span></label></h2>
+        <div class="cl-body">
+          <ul class="items">
+            <li><input class="tick" type="checkbox" id="item-12"><label for="item-12">Government IDs</label></li>
+            <li><input class="tick" type="checkbox" id="item-13"><label for="item-13">Birth and marriage certificates</label></li>
+            <li><input class="tick" type="checkbox" id="item-14"><label for="item-14">Insurance and property papers</label></li>
+            <li><input class="tick" type="checkbox" id="item-15"><label for="item-15">Medical records</label></li>
+            <li><input class="tick" type="checkbox" id="item-16"><label for="item-16">Emergency cash and bank details</label></li>
+          </ul>
+        </div>
+      </section>
+      <section class="cl">
+        <input class="acc" type="checkbox" id="acc-4">
+        <h2><label class="cl-head" for="acc-4"><span class="cl-title">Special Needs</span><span class="bar-seg" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="chev" aria-hidden="true"></span></label></h2>
+        <div class="cl-body">
+          <ul class="items">
+            <li><input class="tick" type="checkbox" id="item-17"><label for="item-17">Prescription medicines and extra eyeglasses</label></li>
+            <li><input class="tick" type="checkbox" id="item-18"><label for="item-18">Baby items: diapers, formula, wipes</label></li>
+            <li><input class="tick" type="checkbox" id="item-19"><label for="item-19">Comfort items for children</label></li>
+            <li><input class="tick" type="checkbox" id="item-20"><label for="item-20">Food and supplies for pets</label></li>
+          </ul>
+        </div>
+      </section>
+        </div>
+        <aside aria-label="Progress and tips">
+          <div class="progress-card">
+            <div class="dial" role="img" aria-label="Progress dial. Each mark lights up when you tick an item.">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              <div class="dial-label"><span class="big"></span><span>items ready</span></div>
+            </div>
+            <p>Tick each item as you pack it.</p>
+            <a class="btn btn-blue btn-block" href="downloads/handaph-checklist.pdf" target="_blank" rel="noopener">Print Checklist</a>
+            <a class="btn btn-blue btn-block" href="downloads/handaph-checklist.pdf" download>Download PDF</a>
+          </div>
+          <div class="tip-card">
+            <span class="dot" aria-hidden="true">!</span>
+            <div><strong>Quick Tip</strong><p>Regularly check expiration dates on food and water.</p></div>
+          </div>
+          <p class="note screen-only">Ticks are not saved when you leave or refresh this page. Print the checklist to keep a copy.</p>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <a class="brand-small" href="index.html" aria-label="HandaPH home"><img src="images/logo.svg" alt="" width="36" height="40"><span>Handa<b>PH</b></span></a>
+      <ul class="foot-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="about.html#faq">Help</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+      <ul class="social">
+        <li><a href="#" aria-label="HandaPH on Facebook"><img src="images/social-facebook.svg" alt=""></a></li>
+        <li><a href="#" aria-label="HandaPH on YouTube"><img src="images/social-youtube.svg" alt=""></a></li>
+        <li><a href="#" aria-label="HandaPH on TikTok"><img src="images/social-tiktok.svg" alt=""></a></li>
+      </ul>
+      <p class="tagline">Prepared Today. Safer Tomorrow.</p>
+    </div>
+  </footer>
+</body>
+</html>

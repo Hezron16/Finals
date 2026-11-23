@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Family Emergency Plan | HandaPH</title>
+  <meta name="description" content="Write down emergency contacts, evacuation meeting points and household member details, then print your family plan.">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&amp;display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html" aria-label="HandaPH home"><img src="images/logo.svg" alt="" width="46" height="52"><span>Handa<b>PH</b></span></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Show or hide the menu">
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span></label>
+      <nav class="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hazards.html">Choose Hazard</a></li>
+        <li><a href="checklist.html">My Checklist</a></li>
+        <li><a href="kit-guide.html">Kit Guide</a></li>
+        <li><a href="family-plan.html" aria-current="page">Family Plan</a></li>
+        <li><a href="about.html">About and Help</a></li>
+      </ul>
+      </nav>
+      <form class="search" role="search" action="hazards.html">
+        <img src="images/search.svg" alt="">
+        <input type="search" name="q" placeholder="Search..." aria-label="Search the site">
+      </form>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap">
+      <div class="page-head"><h1 class="section-title">Family Emergency Plan</h1></div>
+      <div class="plan-grid" style="margin-top:22px">
+        <section class="plan-card" aria-labelledby="c-h">
+          <h2 id="c-h">Emergency Contacts <span aria-hidden="true">&rarr;</span></h2>
+          <form action="#" method="get">
+            <div class="field"><label for="c-name">Name</label><input type="text" id="c-name" name="name" autocomplete="off"></div>
+            <div class="field"><label for="c-rel">Relationship</label><input type="text" id="c-rel" name="relationship" autocomplete="off"></div>
+            <div class="field"><label for="c-tel">Phone Number</label><input type="tel" id="c-tel" name="phone" inputmode="tel" placeholder="09XX XXX XXXX"></div>
+            <div class="field"><label for="c-mail">Email Address</label><input type="email" id="c-mail" name="email"></div>
+            <button class="btn" type="submit">Add Contact <span aria-hidden="true">&rarr;</span></button>
+          </form>
+        </section>
+        <section class="plan-card" aria-labelledby="e-h">
+          <h2 id="e-h">Evacuation Meeting Points <span aria-hidden="true">&rarr;</span></h2>
+          <form action="#" method="get">
+            <div class="map-box"><img src="images/map.svg" alt="Sample map with a primary and a secondary meeting point" width="400" height="220"></div>
+            <div class="field"><label for="e-addr">Address</label><input type="text" id="e-addr" name="address" placeholder="Street, barangay, city"></div>
+            <div class="field"><label for="e-desc">Description</label><textarea id="e-desc" name="description" placeholder="Description for planning evacuation."></textarea></div>
+            <button class="btn" type="submit">Save Point <span aria-hidden="true">&rarr;</span></button>
+          </form>
+        </section>
+        <section class="plan-card" aria-labelledby="m-h">
+          <h2 id="m-h">Household Member Details <span aria-hidden="true">&rarr;</span></h2>
+          <form action="#" method="get">
+            <div class="field"><label for="m-name">Name</label><input type="text" id="m-name" name="member" autocomplete="off"></div>
+            <div class="field"><label for="m-age">Age</label><input type="number" id="m-age" name="age" min="0" max="120" placeholder="Age"></div>
+            <div class="field"><label for="m-notes">Special Needs/Notes</label><textarea id="m-notes" name="notes"></textarea></div>
+            <div class="upload">
+              <input type="file" id="m-photo" name="photo" accept="image/*">
+              <label for="m-photo"><span class="box" aria-hidden="true">&#8679;</span></label>
+              <label for="m-photo">Upload Photo</label>
+            </div>
+            <button class="btn" type="submit">Add Member <span aria-hidden="true">&rarr;</span></button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <a class="brand-small" href="index.html" aria-label="HandaPH home"><img src="images/logo.svg" alt="" width="36" height="40"><span>Handa<b>PH</b></span></a>
+      <ul class="foot-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="about.html#faq">Help</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+      <ul class="social">
+        <li><a href="#" aria-label="HandaPH on Facebook"><img src="images/social-facebook.svg" alt=""></a></li>
+        <li><a href="#" aria-label="HandaPH on YouTube"><img src="images/social-youtube.svg" alt=""></a></li>
+        <li><a href="#" aria-label="HandaPH on TikTok"><img src="images/social-tiktok.svg" alt=""></a></li>
+      </ul>
+      <p class="tagline">Prepared Today. Safer Tomorrow.</p>
+    </div>
+  </footer>
+</body>
+</html>

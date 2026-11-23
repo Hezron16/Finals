@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Choose Your Hazard | HandaPH</title>
+  <meta name="description" content="Pick a hazard to see what to do before, during and after a typhoon, flood, earthquake or fire.">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&amp;display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html" aria-label="HandaPH home"><img src="images/logo.svg" alt="" width="46" height="52"><span>Handa<b>PH</b></span></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Show or hide the menu">
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span></label>
+      <nav class="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hazards.html" aria-current="page">Choose Hazard</a></li>
+        <li><a href="checklist.html">My Checklist</a></li>
+        <li><a href="kit-guide.html">Kit Guide</a></li>
+        <li><a href="family-plan.html">Family Plan</a></li>
+        <li><a href="about.html">About and Help</a></li>
+      </ul>
+      </nav>
+      <form class="search" role="search" action="hazards.html">
+        <img src="images/search.svg" alt="">
+        <input type="search" name="q" placeholder="Search..." aria-label="Search the site">
+      </form>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap content">
+      <h1 class="section-title">Choose Your Hazard</h1>
+      <div class="grid grid-3">
+        <a class="hz-card" href="#typhoon">
+          <span class="hz-photo"><img src="images/hazard-typhoon.jpg" alt=""></span>
+          <span class="hz-body">
+            <img class="icon" src="images/icon-typhoon.svg" alt="">
+            <span class="hz-text"><strong>Typhoon</strong><small>Know the risks. Be ready.</small></span>
+            <span class="arrow" aria-hidden="true">&rarr;</span>
+          </span>
+        </a>
+        <a class="hz-card" href="#flood">
+          <span class="hz-photo"><img src="images/hazard-flood.jpg" alt=""></span>
+          <span class="hz-body">
+            <img class="icon" src="images/icon-flood.svg" alt="">
+            <span class="hz-text"><strong>Flood</strong><small>Prepare before it rises.</small></span>
+            <span class="arrow" aria-hidden="true">&rarr;</span>
+          </span>
+        </a>
+        <a class="hz-card" href="#earthquake">
+          <span class="hz-photo"><img src="images/hazard-earthquake.jpg" alt=""></span>
+          <span class="hz-body">
+            <img class="icon" src="images/icon-earthquake.svg" alt="">
+            <span class="hz-text"><strong>Earthquake</strong><small>Know what to do.</small></span>
+            <span class="arrow" aria-hidden="true">&rarr;</span>
+          </span>
+        </a>
+      </div>
+      <div class="grid" style="margin-top:24px">
+        <a class="hz-card wide" href="#fire">
+          <span class="hz-photo"><img src="images/hazard-fire.jpg" alt=""></span>
+          <span class="hz-body">
+            <img class="icon" src="images/icon-fire.svg" alt="">
+            <span class="hz-text"><strong>Fire</strong><small>Prevent and protect. Be prepared.</small></span>
+            <span class="arrow" aria-hidden="true">&rarr;</span>
+          </span>
+        </a>
+      </div>
+      <div style="margin-top:24px">
+      <div class="grid grid-3">
+        <a class="act-card" href="checklist.html">
+          <img src="images/glyph-checklist.svg" alt="">
+          <span class="txt"><strong>Emergency Checklist</strong><small>Make sure you have everything you need.</small></span>
+          <span class="arrow" aria-hidden="true">&rarr;</span>
+        </a>
+        <a class="act-card" href="hazards.html#reminders">
+          <img src="images/glyph-warning.svg" alt="">
+          <span class="txt"><strong>Safety Reminders</strong><small>Simple tips to keep you safe.</small></span>
+          <span class="arrow" aria-hidden="true">&rarr;</span>
+        </a>
+        <a class="act-card" href="family-plan.html">
+          <img src="images/glyph-family.svg" alt="">
+          <span class="txt"><strong>Family Plan</strong><small>Plan together. Stay safer.</small></span>
+          <span class="arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+      </div>
+    </div>
+
+    <div class="wrap guides">
+      <h2 class="section-title">Disaster Guides</h2>
+      <section class="guide" id="typhoon" aria-labelledby="typhoon-h">
+        <div class="guide-head">
+          <img src="images/icon-typhoon.svg" alt="">
+          <div><h3 id="typhoon-h">Typhoon Guide</h3><p>Typhoons bring strong winds, heavy rain, storm surge and landslides.</p></div>
+        </div>
+        <div class="phase-grid">
+          <div class="phase"><h4>Before</h4><ul>
+              <li>Know your area's risks and the nearest evacuation center.</li>
+              <li>Secure the roof, windows and loose objects outside.</li>
+              <li>Charge phones and power banks and pack your Go Bag.</li>
+              <li>Follow PAGASA bulletins and your local government unit (LGU).</li>
+          </ul></div>
+          <div class="phase"><h4>During</h4><ul>
+              <li>Stay indoors, away from windows and glass doors.</li>
+              <li>Evacuate right away if your LGU orders it or you live in a flood, landslide or storm-surge area.</li>
+              <li>Switch off the main power if water enters the house.</li>
+              <li>Keep a battery radio on for updates.</li>
+          </ul></div>
+          <div class="phase"><h4>After</h4><ul>
+              <li>Wait for the official all-clear before going outside.</li>
+              <li>Stay away from floodwater, fallen trees and downed power lines.</li>
+              <li>Check your home for damage before going back in.</li>
+              <li>Drink only safe water until your supply is cleared.</li>
+          </ul></div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>PAGASA Tropical Cyclone Wind Signals (TCWS)</caption>
+            <thead><tr><th scope="col">Signal</th><th scope="col">Wind speed</th><th scope="col">Lead time</th><th scope="col">What to expect</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">No. 1</th><td>39&ndash;61 km/h</td><td>36 hours</td><td>Minor damage to light structures.</td></tr>
+              <tr><th scope="row">No. 2</th><td>62&ndash;88 km/h</td><td>24 hours</td><td>Minor to moderate damage; loose objects become dangerous; some power outages.</td></tr>
+              <tr><th scope="row">No. 3</th><td>89&ndash;117 km/h</td><td>18 hours</td><td>Roof damage and broken windows in average houses; many power outages.</td></tr>
+              <tr><th scope="row">No. 4</th><td>118&ndash;184 km/h</td><td>12 hours</td><td>Severe damage; flying debris can kill; near-total power and phone loss.</td></tr>
+              <tr><th scope="row">No. 5</th><td>185 km/h or higher</td><td>12 hours</td><td>Catastrophic damage; long outages of power, water and phone signal.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section class="guide" id="flood" aria-labelledby="flood-h">
+        <div class="guide-head">
+          <img src="images/icon-flood.svg" alt="">
+          <div><h3 id="flood-h">Flood Guide</h3><p>Floods can rise within minutes and carry diseases and debris.</p></div>
+        </div>
+        <div class="phase-grid">
+          <div class="phase"><h4>Before</h4><ul>
+              <li>Learn which streets in your area flood and where higher ground is.</li>
+              <li>Keep documents and valuables in waterproof bags on high shelves.</li>
+              <li>Prepare your Go Bag and agree on a family meeting point.</li>
+              <li>Move early when water starts to rise.</li>
+          </ul></div>
+          <div class="phase"><h4>During</h4><ul>
+              <li>Go to higher ground. Do not wait for the water to reach your door.</li>
+              <li>Do not walk, swim or drive through moving floodwater.</li>
+              <li>Turn off electricity at the main switch if it is safe to do so.</li>
+              <li>Avoid contact with floodwater to lower the risk of leptospirosis.</li>
+          </ul></div>
+          <div class="phase"><h4>After</h4><ul>
+              <li>Return home only when authorities say it is safe.</li>
+              <li>Wear boots and gloves when cleaning up.</li>
+              <li>See a doctor if you waded in floodwater and feel feverish or achy.</li>
+              <li>Throw away food that touched floodwater.</li>
+          </ul></div>
+        </div>
+      </section>
+      <section class="guide" id="earthquake" aria-labelledby="earthquake-h">
+        <div class="guide-head">
+          <img src="images/icon-earthquake.svg" alt="">
+          <div><h3 id="earthquake-h">Earthquake Guide</h3><p>Earthquakes strike without warning, so practice before they happen.</p></div>
+        </div>
+        <div class="phase-grid">
+          <div class="phase"><h4>Before</h4><ul>
+              <li>Fasten heavy furniture and shelves to walls.</li>
+              <li>Identify a sturdy table or desk and clear exits in every room.</li>
+              <li>Practice Duck, Cover and Hold with your family.</li>
+              <li>Keep shoes, a flashlight and your Go Bag near your bed.</li>
+          </ul></div>
+          <div class="phase"><h4>During</h4><ul>
+              <li>DROP to your hands and knees, take COVER under a sturdy table and HOLD ON.</li>
+              <li>Stay away from windows, glass and heavy objects that can fall.</li>
+              <li>If outside, move to an open area away from buildings, poles and wires.</li>
+              <li>Never use elevators. Near the coast, if shaking is strong or long, move to higher ground right away.</li>
+          </ul></div>
+          <div class="phase"><h4>After</h4><ul>
+              <li>Expect aftershocks and be ready to drop, cover and hold again.</li>
+              <li>Check yourself and others for injuries, and check for gas leaks and damage.</li>
+              <li>Leave damaged buildings. Use text messages instead of calls.</li>
+              <li>Follow advisories from PHIVOLCS and your LGU.</li>
+          </ul></div>
+        </div>
+      </section>
+      <section class="guide" id="fire" aria-labelledby="fire-h">
+        <div class="guide-head">
+          <img src="images/icon-fire.svg" alt="">
+          <div><h3 id="fire-h">Fire Guide</h3><p>Most home fires can be prevented, and a clear escape plan saves lives.</p></div>
+        </div>
+        <div class="phase-grid">
+          <div class="phase"><h4>Before</h4><ul>
+              <li>Install smoke alarms and keep a fire extinguisher where you can reach it.</li>
+              <li>Plan two ways out of every room and practice them.</li>
+              <li>Do not overload outlets. Turn off LPG tanks and stoves when not in use.</li>
+              <li>Keep emergency numbers where everyone can see them.</li>
+          </ul></div>
+          <div class="phase"><h4>During</h4><ul>
+              <li>Shout to warn everyone, get out, then call 911 or your local fire station.</li>
+              <li>Crawl low under smoke. Feel doors with the back of your hand before opening.</li>
+              <li>If clothes catch fire: stop, drop and roll.</li>
+              <li>Use stairs, never elevators. Once you are out, stay out.</li>
+          </ul></div>
+          <div class="phase"><h4>After</h4><ul>
+              <li>Do not go back inside until firefighters say it is safe.</li>
+              <li>Get medical care for burns and smoke inhalation.</li>
+              <li>Contact your LGU or barangay for help with shelter and supplies.</li>
+              <li>Do not use electricity or gas until they have been checked.</li>
+          </ul></div>
+        </div>
+      </section>
+
+      <section class="reminders" id="reminders" aria-labelledby="rem-h">
+        <img src="images/glyph-warning.svg" alt="">
+        <div>
+          <h3 id="rem-h">Safety Reminders</h3>
+          <ul>
+            <li>Keep an emergency kit ready.</li>
+            <li>Know your evacuation routes.</li>
+            <li>Stay updated with official news (PAGASA, PHIVOLCS, NDRRMC, your LGU).</li>
+            <li>Save emergency numbers on paper, not only on your phone.</li>
+            <li>Charge phones and power banks before a storm.</li>
+            <li>Check on neighbors who are elderly, sick or living alone.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <a class="brand-small" href="index.html" aria-label="HandaPH home"><img src="images/logo.svg" alt="" width="36" height="40"><span>Handa<b>PH</b></span></a>
+      <ul class="foot-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="about.html#faq">Help</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+      <ul class="social">
+        <li><a href="#" aria-label="HandaPH on Facebook"><img src="images/social-facebook.svg" alt=""></a></li>
+        <li><a href="#" aria-label="HandaPH on YouTube"><img src="images/social-youtube.svg" alt=""></a></li>
+        <li><a href="#" aria-label="HandaPH on TikTok"><img src="images/social-tiktok.svg" alt=""></a></li>
+      </ul>
+      <p class="tagline">Prepared Today. Safer Tomorrow.</p>
+    </div>
+  </footer>
+</body>
+</html>
